@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Hero } from '../hero';
 
+
 @Component({
   selector: 'app-heroes',
   templateUrl: './heroes.component.html',
@@ -15,4 +16,5 @@ export class HeroesComponent {
     console.log("function called");
     alert("prueba alert");
   }
+  
 }
